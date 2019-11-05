@@ -4,7 +4,7 @@
 1. Cloner le repo 
 2. Switcher sur la branche dev
 3. Avant de développer une nouvelle fonctionnalité toujours executer un "Pull" depuis cette branche
-4. Dans la même branche, créer une nouvelle branche intitulé feature-***** (Le nom de l'ajout. Si plusieurs mots, espacer avec -)
+4. Dans la même branche, créer une toute nouvelle intitulée "feature-*****" (Le nom de l'ajout. Si plusieurs mots, espacer avec -)
 
 ### L'API
 1. Créer une nouvelle bdd intitulée "projetb3"
