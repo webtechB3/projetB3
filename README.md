@@ -6,7 +6,7 @@
 3. Avant de développer une nouvelle fonctionnalité toujours executer un "Pull" depuis cette branche
 4. Toujours depuis la branche dev, créer une nouvelle branche intitulé feature-***** (Le nom de l'ajout. Si plusieurs mots, espacer avec -)
 
-### Pour l'API
+### L'API
 1. Créer une nouvelle bdd intitulée "projetb3"
 2. Installer les dépendances requises du projet
 3. Build le projet avec Gradle 
