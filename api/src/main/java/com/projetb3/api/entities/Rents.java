@@ -1,11 +1,11 @@
 package com.projetb3.api.entities;
 
 import org.hibernate.type.descriptor.sql.NVarcharTypeDescriptor;
-import org.springframework.data.annotation.Id;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
+import javax.persistence.Id;
 
 @Entity
 public class Rents {
@@ -108,7 +108,7 @@ public class Rents {
     }
 
     public void setId(Integer id) {
-        Id = id;
+        this.Id = id;
     }
 
     public void setTitle(String title) {
