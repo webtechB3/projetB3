@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 import java.util.Optional;
 
-@Controller    // This means that this class is a Controller
+@Controller
 @RequestMapping(path="/publications")
 public class PublicationsController {
 
@@ -30,8 +30,8 @@ public class PublicationsController {
     }
 
     @PostMapping()
-    public @ResponseBody Publications addNewPublication(@RequestBody Publications newEleve){
-        return publicationsRepository.save(newEleve);
+    public @ResponseBody Publications addNewPublication(@RequestBody Publications newPublication){
+        return publicationsRepository.save(newPublication);
     }
 
     @DeleteMapping("/{id}")
